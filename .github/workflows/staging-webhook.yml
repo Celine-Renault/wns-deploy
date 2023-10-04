@@ -3,6 +3,7 @@ on:
     workflows: ["staging-server", "staging-client"]
     types:
       - completed
+
 jobs:
   send_redeploy_webhook:
     runs-on: ubuntu-latest
